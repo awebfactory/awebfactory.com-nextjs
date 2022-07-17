@@ -1,8 +1,12 @@
 {
   "name": "awebfactory.com",
+  "author": "Victor Kane",
+  "description": "AWebFactory.com web application factory pattern - workspaces for web application process #codeinpublic #buildinpublic",
   "version": "0.1.0",
-  "license": "MIT",
   "private": true,
+  "repository": "https://github.com/awebfactory/awebfactory.com",
+  "homepage": "https://awebfactory.com",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,5 +21,9 @@
   "devDependencies": {
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.2"
-  }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": ">=8.5.0"
 }
